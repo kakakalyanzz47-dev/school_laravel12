@@ -1,9 +1,11 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
+  "buildCommand": "npm ci && npm run build",
   "builds": [
     {
       "src": "api/index.php",
-      "use": "vercel-php"
+      "use": "vercel-php@0.7.4"
     },
     {
       "src": "public/**",
@@ -35,9 +37,12 @@
     "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
+    "LOG_CHANNEL": "stderr",
     "LOG_LEVEL": "error",
     "LOG_DEPRECATIONS_CHANNEL": "null",
-    "DB_CONNECTION": "sqlite",
-    "DB_DATABASE": "/tmp/database.sqlite"
-    }
+    "CACHE_STORE": "array",
+    "SESSION_DRIVER": "cookie",
+    "SESSION_SECURE_COOKIE": "true",
+    "VIEW_COMPILED_PATH": "/tmp"
+  }
 }

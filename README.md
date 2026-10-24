@@ -21,6 +21,12 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Deploy ke Vercel
+
+Hubungkan repository GitHub ke Vercel dan deploy dengan konfigurasi di `vercel.json`. Atur `APP_KEY` sebagai environment variable di Vercel Project Settings > Environment Variables; buat nilainya secara lokal dengan `php artisan key:generate --show` dan jangan commit nilainya.
+
+Saat ini halaman sekolah belum memakai database, jadi sesi dan cache menggunakan driver yang tidak membutuhkan database. SQLite di filesystem sementara tidak cocok untuk menyimpan data permanen. Jika aplikasi mulai menyimpan data, siapkan database terkelola dan isi kredensialnya melalui environment variables Vercel sebelum menjalankan migrasi.
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
