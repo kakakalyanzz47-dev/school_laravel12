@@ -117,16 +117,12 @@
                 <div class="card h-100 shadow-sm border">
                     <h5 class="card-header bg-secondary text-white fw-bold">Kepala Sekolah</h5>
                     <div class="card-body p-4">
-                        <div class="row g-3 align-items-center">
+                        <div class="row g-0 align-items-center">
                             <div class="col-md-4 text-center">
                                 <img src="https://sikabar.smkpgriwlingi.sch.id/img/guru-putih/Drs.%20BAMBANG%20SETIYONO,%20ST,%20M.Pd.jpg" class="img-fluid rounded shadow-sm" alt="Kepala Sekolah">
                             </div>
-                            <div class="col-md-8">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item px-0"><strong>Nama Guru:</strong> Drs. BAMBANG SETIYONO, S.T., M.Pd</li>
-                                    <li class="list-group-item px-0"><strong>Kode Guru:</strong> A1</li>
-                                    <li class="list-group-item px-0"><strong>Atribut:</strong> Kepala Sekolah, Guru Pengajar</li>
-                                </ul>
+                            <div class="container-fluid col-md-8">
+                                <h4>Drs. BAMBANG SETIYONO, S.T., M.Pd</h4>
                             </div>
                         </div>
                     </div>
@@ -134,38 +130,38 @@
             </div>
 
             <!-- KARTU PENGUMUMAN TERBARU (POJOK KANAN) -->
-            <div class="col-lg-6">
-                <div class="card h-100 shadow-sm border">
+            <div class="col-lg-3">
+                <div class="card h-4">
                     <h6 class="card-header bg-info text-dark fw-bold fs-5">Pengumuman Terbaru</h6>
-                    <div class="card-body p-3" style="max-height: 260px; overflow-y: auto;">
+                    <div class="card-body p-3">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item d-flex align-items-center py-2">
                                 <svg class="me-3 text-primary flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/></svg>
-                                <div>Pendaftaran Peserta Didik TA 2026/2027 - <strong>RPL</strong></div>
+                                <div>Pendaftaran Peserta Didik Tahun 2026/2027 - <strong>RPL</strong></div>
                             </li>
                             <li class="list-group-item d-flex align-items-center py-2">
                                 <svg class="me-3 text-primary flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/></svg>
-                                <div>Pendaftaran Peserta Didik TA 2026/2027 - <strong>TKJ</strong></div>
+                                <div>Pendaftaran Peserta Didik Tahun 2026/2027 - <strong>TKJ</strong></div>
                             </li>
                             <li class="list-group-item d-flex align-items-center py-2">
                                 <svg class="me-3 text-primary flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/></svg>
-                                <div>Pendaftaran Peserta Didik TA 2026/2027 - <strong>DKV</strong></div>
+                                <div>Pendaftaran Peserta Didik Tahun 2026/2027 - <strong>DKV</strong></div>
                             </li>
                             <li class="list-group-item d-flex align-items-center py-2">
                                 <svg class="me-3 text-primary flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/></svg>
-                                <div>Pendaftaran Peserta Didik TA 2026/2027 - <strong>TKKR</strong></div>
+                                <div>Pendaftaran Peserta Didik Tahun 2026/2027 - <strong>TKKR</strong></div>
                             </li>
                             <li class="list-group-item d-flex align-items-center py-2">
                                 <svg class="me-3 text-primary flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/></svg>
-                                <div>Pendaftaran Peserta Didik TA 2026/2027 - <strong>TAB</strong></div>
+                                <div>Pendaftaran Peserta Didik Tahun 2026/2027 - <strong>TAB</strong></div>
                             </li>
                             <li class="list-group-item d-flex align-items-center py-2">
                                 <svg class="me-3 text-primary flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/></svg>
-                                <div>Pendaftaran Peserta Didik TA 2026/2027 - <strong>TKRO</strong></div>
+                                <div>Pendaftaran Peserta Didik Tahun 2026/2027 - <strong>TKRO</strong></div>
                             </li>
                             <li class="list-group-item d-flex align-items-center py-2">
                                 <svg class="me-3 text-primary flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/></svg>
-                                <div>Pendaftaran Peserta Didik TA 2026/2027 - <strong>TPM</strong></div>
+                                <div>Pendaftaran Peserta Didik Tahun 2026/2027 - <strong>TPM</strong></div>
                             </li>
                         </ul>
                     </div>
@@ -176,7 +172,7 @@
 
         <!-- ROW BAWAH: KEGIATAN TERBARU (MEMBENTANG DI BAWAH) -->
         <div class="row">
-            <div class="col-12">
+            <div class="col-6">
                 <div class="card shadow-sm">
                     <div class="card-header bg-secondary text-white d-flex justify-content-between align-items-center">
                         <span class="fw-bold">Kegiatan Terbaru</span>
